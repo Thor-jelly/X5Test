@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!--<external-path-->
+    <!--name="images"-->
+    <!--path="DCIM/Camera/" />-->
+    <files-path
+        name="files"
+        path="." />
+    <external-files-path
+        name="external_files"
+        path="." />
+    <external-path
+        name="external_files"
+        path="." />
+    <cache-path
+        name="cached_files"
+        path="." />
+    <external-cache-path
+        name="cached_files"
+        path="." />
+
+    <external-files-path
+        name="umeng_cache"
+        path="umeng_cache/" />
+    <external-path path="Android/data/" name="files_root" />
+    <external-path path="." name="external_storage_root" />
+</paths>

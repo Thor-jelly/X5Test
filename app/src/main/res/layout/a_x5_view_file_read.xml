@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/hint_tv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:text="暂无X5内核，请点击当前界面跳转至安装界面安装线上内核；或点击右上角按钮，启用第三方应用打开预览！"
+        android:textSize="20dp"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+    <com.jelly.thor.x5test.x5.FileReaderView
+        android:id="@+id/tbs_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+</LinearLayout>
